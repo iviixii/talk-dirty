@@ -36,6 +36,6 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 ## TODO
-### `Add redux actions and reducers to our chat components`
-### `Add user creation with our chatkit api using our localstorage login data`
+* `Add redux actions and reducers to our chat components`
+* `Add user creation with our chatkit api using our localstorage login data`
 
