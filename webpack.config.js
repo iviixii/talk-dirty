@@ -9,7 +9,13 @@ module.exports = {
         rules: [
             {
                 test: /\.jsx?$/,
+                exclude: /node_modules/,
                 loader: 'babel-loader'
+            },
+            {
+                test: /\.scss$/,
+                exclude: /node_modules/,
+                loader: ['style-loader', 'css-loader', 'sass-loader'],
             }
         ]
     },
