@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Talk Dirty
+
+Talk Dirty is a react app that implements React(16.8) using Redux Boilerplate that uses JWT authentication. Currently http interceptors implementing a fake backend. Localstorage is used to save user data unencrypted to give the feel of a working authentication. The chat uses the chatkit api which lets you add 1-1 and group chat to your app, along with typing indicators, file attachments and storage, user online presence and a flexible permissions system. Finally we wrap everything up using webpack to handle our babel loader and sass loader.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+## Install
+
+### npm install
+### npm run start
+### enjoy:)
 
 ## Available Scripts
 
@@ -24,4 +34,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+## TODO
+Add redux actions and reducers to our chat components
+Add user creation with our chatkit api using our localstorage login data
 
