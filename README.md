@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Install
 
-### npm install
-### npm run start
-### enjoy:)
+#### `npm install`
+#### `npm run start`
+#### `enjoy:)`
 
 ## Available Scripts
 
@@ -36,6 +36,6 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 ## TODO
-Add redux actions and reducers to our chat components
-Add user creation with our chatkit api using our localstorage login data
+### `Add redux actions and reducers to our chat components`
+### `Add user creation with our chatkit api using our localstorage login data`
 
